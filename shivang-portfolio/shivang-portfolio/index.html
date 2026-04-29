@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shivang Rana — Portfolio</title>
+  <meta name="description" content="Shivang Rana — B.Tech CSE student at Galgotias University. Full Stack Developer & Data Analytics enthusiast." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">shivang<span>.dev</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="https://github.com/shivangrana1" target="_blank" class="nav-cta">GitHub ↗</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" onclick="closeMobileMenu()">About</a></li>
+      <li><a href="#skills" onclick="closeMobileMenu()">Skills</a></li>
+      <li><a href="#projects" onclick="closeMobileMenu()">Projects</a></li>
+      <li><a href="#education" onclick="closeMobileMenu()">Education</a></li>
+      <li><a href="#contact" onclick="closeMobileMenu()">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-orb orb1"></div>
+      <div class="hero-orb orb2"></div>
+      <div class="hero-orb orb3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Available for Internships &amp; Opportunities
+      </div>
+      <h1 class="hero-title">
+        Hey, I'm<br>
+        <span class="name-gradient">Shivang Rana</span>
+      </h1>
+      <p class="hero-sub">Full Stack Developer &amp; Data Analytics enthusiast.<br>B.Tech CSE @ Galgotias University, 3rd Year.</p>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn-primary">View My Work <span>→</span></a>
+        <a href="#contact" class="btn-outline">Let's Connect</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/shivangrana1" target="_blank" class="social-pill">GitHub</a>
+        <a href="https://www.linkedin.com/in/shivangrana1" target="_blank" class="social-pill">LinkedIn</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      <span>scroll</span>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-eyebrow">Who I Am</div>
+      <div class="about-grid">
+        <div class="about-left">
+          <h2 class="section-title">Code. Analyze.<br><em>Build.</em></h2>
+          <p>I'm <strong>Shivang Rana</strong>, a 3rd year B.Tech CSE student at <strong>Galgotias University</strong> with a CGPA of 7.88. I love crafting full-stack web applications and diving deep into data to tell compelling stories.</p>
+          <p>From building live stock dashboards with real-time APIs to exploring data analytics, I thrive at the intersection of engineering and insight.</p>
+          <p>Currently looking for <strong>internship opportunities</strong> where I can contribute, learn fast, and ship real products.</p>
+          <div class="about-stats">
+            <div class="stat-box">
+              <span class="stat-num">3+</span>
+              <span class="stat-label">Projects Shipped</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-num">7.88</span>
+              <span class="stat-label">CGPA</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-num">8+</span>
+              <span class="stat-label">Git Commits</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-num">3rd</span>
+              <span class="stat-label">Year @ GU</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-right">
+          <div class="avatar-wrap">
+            <div class="avatar-ring"></div>
+            <div class="avatar-box">
+              <!-- Replace with: <img src="assets/photo.jpg" alt="Shivang Rana" /> -->
+              <div class="avatar-placeholder">SR</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-eyebrow">What I Know</div>
+      <h2 class="section-title">My <em>Tech Stack</em></h2>
+      <div class="skills-grid">
+
+        <div class="skill-card sk-hot">
+          <div class="skill-icon-wrap">☕</div>
+          <h3>Languages</h3>
+          <div class="tags">
+            <span class="tag">Java</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-card sk-cyan">
+          <div class="skill-icon-wrap">🌐</div>
+          <h3>Frontend</h3>
+          <div class="tags">
+            <span class="tag">React.js</span>
+            <span class="tag">React Router v6</span>
+            <span class="tag">Recharts</span>
+            <span class="tag">Tailwind CSS</span>
+            <span class="tag">Responsive Design</span>
+          </div>
+        </div>
+
+        <div class="skill-card sk-purple">
+          <div class="skill-icon-wrap">🛠</div>
+          <h3>Backend &amp; DB</h3>
+          <div class="tags">
+            <span class="tag">Node.js</span>
+            <span class="tag">Express.js</span>
+            <span class="tag">REST APIs</span>
+            <span class="tag">MongoDB</span>
+            <span class="tag">MySQL</span>
+          </div>
+        </div>
+
+        <div class="skill-card sk-gold">
+          <div class="skill-icon-wrap">📊</div>
+          <h3>Data Analytics</h3>
+          <div class="tags">
+            <span class="tag">Data Visualization</span>
+            <span class="tag">Excel</span>
+            <span class="tag">Power BI</span>
+            <span class="tag">Python (Pandas)</span>
+            <span class="tag">Tableau</span>
+          </div>
+        </div>
+
+        <div class="skill-card sk-teal">
+          <div class="skill-icon-wrap">🔧</div>
+          <h3>Tools &amp; DevOps</h3>
+          <div class="tags">
+            <span class="tag">Git &amp; GitHub</span>
+            <span class="tag">Vercel</span>
+            <span class="tag">CI/CD</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">Postman</span>
+          </div>
+        </div>
+
+        <div class="skill-card sk-pink">
+          <div class="skill-icon-wrap">🧠</div>
+          <h3>Core CS</h3>
+          <div class="tags">
+            <span class="tag">DSA</span>
+            <span class="tag">OOP</span>
+            <span class="tag">DBMS</span>
+            <span class="tag">OS</span>
+            <span class="tag">Computer Networks</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-eyebrow">What I've Built</div>
+      <h2 class="section-title">Featured <em>Projects</em></h2>
+      <div class="projects-grid">
+
+        <!-- Project 1: Stock Dashboard (REAL) -->
+        <div class="project-card featured">
+          <div class="project-thumb thumb-hot">
+            <span class="project-emoji">📈</span>
+            <span class="featured-badge">Featured</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span class="project-type">Full Stack · Live</span>
+              <a href="https://stock-dashboard-jade-nine.vercel.app/" target="_blank" class="project-link">Live Demo ↗</a>
+            </div>
+            <h3>Stock Market Dashboard</h3>
+            <p>Real-time stock dashboard fetching live prices for 5 stocks using Finnhub API with <code>Promise.all</code> for parallel requests — reducing load time by 60%. Includes 30-day candlestick charts, dark/light mode, animated loading skeletons, and production-grade error handling.</p>
+            <div class="project-highlights">
+              <span>⚡ 60% faster load with parallel API calls</span>
+              <span>🕯 30-day candlestick history via Recharts</span>
+              <span>🚀 Deployed on Vercel with CI/CD</span>
+            </div>
+            <div class="project-stack">
+              <span class="stack-tag">React.js</span>
+              <span class="stack-tag">React Router v6</span>
+              <span class="stack-tag">Recharts</span>
+              <span class="stack-tag">Finnhub API</span>
+              <span class="stack-tag">Vercel</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Placeholder — update with your real project -->
+        <div class="project-card">
+          <div class="project-thumb thumb-cyan">
+            <span class="project-emoji">🗄</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span class="project-type">Full Stack</span>
+              <a href="https://github.com/shivangrana1" target="_blank" class="project-link">GitHub ↗</a>
+            </div>
+            <h3>Project Two</h3>
+            <p><!-- ADD: Describe your second project here. What problem does it solve? What tech did you use? Any impact metrics? --></p>
+            <p style="color:var(--muted);font-size:0.85rem;font-style:italic;">✏️ Update this with your real project details.</p>
+            <div class="project-stack">
+              <span class="stack-tag">Java</span>
+              <span class="stack-tag">Spring Boot</span>
+              <span class="stack-tag">MySQL</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Placeholder -->
+        <div class="project-card">
+          <div class="project-thumb thumb-gold">
+            <span class="project-emoji">📊</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span class="project-type">Data Analytics</span>
+              <a href="https://github.com/shivangrana1" target="_blank" class="project-link">GitHub ↗</a>
+            </div>
+            <h3>Data Analytics Project</h3>
+            <p><!-- ADD: Describe your data analytics project here. Dataset used, insights generated, tools/libraries used. --></p>
+            <p style="color:var(--muted);font-size:0.85rem;font-style:italic;">✏️ Update this with your real project details.</p>
+            <div class="project-stack">
+              <span class="stack-tag">Python</span>
+              <span class="stack-tag">Pandas</span>
+              <span class="stack-tag">Power BI</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="projects-footer">
+        <a href="https://github.com/shivangrana1" target="_blank" class="btn-outline">See All on GitHub ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EDUCATION ========== -->
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <div class="section-eyebrow">My Journey</div>
+      <h2 class="section-title">Education <em>Timeline</em></h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">2023 — Present</span>
+            <h3>B.Tech — Computer Science &amp; Engineering</h3>
+            <div class="timeline-school">Galgotias University, Greater Noida</div>
+            <p>CGPA: <strong>7.88 / 10</strong></p>
+            <div class="timeline-courses">
+              <span>DSA</span><span>DBMS</span><span>OS</span><span>CN</span><span>Web Dev</span><span>Data Analytics</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">2022 — 2023</span>
+            <h3>Class XII — Science (PCM)</h3>
+            <div class="timeline-school">Bright Home Public School</div>
+            <p>Percentage:<strong>65%</strong></p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">2020 — 2021</span>
+            <h3>Class X</h3>
+            <div class="timeline-school">Alpine Vidhyapeeth School</div>
+            <p>Percentage: <strong>57%</strong></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-eyebrow">Let's Talk</div>
+      <h2 class="section-title">Get In <em>Touch</em></h2>
+      <div class="contact-grid">
+
+        <div class="contact-left">
+          <p class="contact-intro">I'm actively seeking internship and full-time opportunities. Whether you want to discuss a project, opportunity, or just say hi — reach out!</p>
+          <div class="contact-links">
+            <a href="https://github.com/shivangrana1" target="_blank" class="contact-card">
+              <div class="cc-icon cc-gh">GH</div>
+              <div>
+                <div class="cc-label">GitHub</div>
+                <div class="cc-val">github.com/shivangrana1</div>
+              </div>
+              <span class="cc-arrow">↗</span>
+            </a>
+            <a href="https://www.linkedin.com/in/shivangrana1" target="_blank" class="contact-card">
+              <div class="cc-icon cc-li">in</div>
+              <div>
+                <div class="cc-label">LinkedIn</div>
+                <div class="cc-val">linkedin.com/in/shivangrana1</div>
+              </div>
+              <span class="cc-arrow">↗</span>
+            </a>
+            <a href="mailto:shivang@email.com" class="contact-card">
+              <!-- ADD: Replace shivang@email.com with your real email -->
+              <div class="cc-icon cc-em">@</div>
+              <div>
+                <div class="cc-label">Email</div>
+                <div class="cc-val">shivangrana450@email.com</div>
+                <!-- ADD: Update email above -->
+              </div>
+              <span class="cc-arrow">↗</span>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Internship Opportunity / Project Collab" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Hey Shivang, I'd love to..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Send Message →</button>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">shivang<span>.dev</span></div>
+      <p>Designed &amp; built by <strong>Shivang Rana</strong> · B.Tech CSE, Galgotias University</p>
+      <div class="footer-links">
+        <a href="https://github.com/shivangrana1" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/shivangrana1" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
